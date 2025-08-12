@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './assets/Styles/Default.css'
 import Hero from './assets/Components/Hero/Hero'
 import Message from './assets/Components/Message/Message'
