@@ -9,7 +9,7 @@ section.gallery-section .carousel-container {
 
 section.gallery-section .carousel-container .carousel-track {
     display: flex;
-    transition: tranform 0.5s ease;
+    transition: transform 0.5s ease;
 }
 
 section.gallery-section .carousel-container .carousel-track .carousel-slide {

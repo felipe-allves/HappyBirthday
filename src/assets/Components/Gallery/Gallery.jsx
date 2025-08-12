@@ -2,11 +2,15 @@ import React, { useState, useEffect } from "react";
 import './Gallery.css';
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 
+import Nik1 from "../../images/Nik2.jpg"
+import Nik2 from "../../images/Nik1.jpg"
+import Nik3 from "../../images/Nik3.jpg"
+
 function Gallery() {
   const slides = [
-    "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&h=400&fit=crop",
-    "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop"
+    Nik1,
+    Nik2,
+    Nik3,
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -34,7 +38,7 @@ function Gallery() {
             <FaChevronCircleLeft />
           </button>
 
-          <div className="carousel-track">
+          <div className="carousel-track" style={{ transform: `translateX(-${currentSlide * 100}%)` }}>
             {slides.map((src, index) => (
               <div
                 key={index}

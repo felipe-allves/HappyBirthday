@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import './Countdown.css';
 
 function Countdown() {
-  const birthday = new Date("2025-02-27T00:00:00");
+  const birthday = new Date("2025-08-13T00:00:00");
   birthday.setFullYear(birthday.getFullYear() + 1);
 
   const [timeLeft, setTimeLeft] = useState({
