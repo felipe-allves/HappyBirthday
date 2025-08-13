@@ -2,7 +2,7 @@ import React from "react";
 import './Hero.css';
 
 function Hero() {
-  const age = 19;
+  const age = 25;
   const birthday = new Date();
   birthday.setFullYear(birthday.getFullYear() + 1);
 

@@ -11,21 +11,6 @@ function Message () {
                         <p>"Que seu dia seja tão especial quanto você é para mim! Feliz aniversário!"</p>
                         <small>De: Felipe ❤️</small>
                     </div>
-
-                    <div className="message-card">
-                        <p>"Cada momento com você é lindo e especial"</p>
-                        <small>De: Felipe ❤️</small>
-                    </div>
-
-                    <div className="message-card">
-                        <p>"Deus, proteja ela de todo mal, que a sua graça e bondade esteja na vida dela, que aonde ela andar, o Senhor venha estar com ela, protejendo e livrando de todo mal. Amém!"</p>
-                        <small>De: Felipe ❤️</small>
-                    </div>
-
-                    <div className="message-card">
-                        <p>"Você é uma ótima amiga e companheira, que cada vez mais a gente possa caminhar mais juntos, ser mais íntimos, próximos. Que os próximos momentos que virão, seja glorioso, explendido e marcantes em nossas vidas. Obrigado por existir!"</p>
-                        <small>De: Felipe ❤️</small>
-                    </div>
                 </div>
             </section>
         </main>

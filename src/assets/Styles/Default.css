@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Poppins' sans-serif;
+    font-family: 'Poppins', sans-serif;
     background: #0a0a0a;
     color: #ffffff;
     overflow-x: hidden;
@@ -52,8 +52,13 @@ section:nth-child(5) { animation-delay: 0.8s; }
     margin: 0 auto;
     }
 
+    main.container section.hero-section .age-display span.age-label {
+        font-size: clamp(2rem, 10vh, 6rem);
+        margin-top: -50px;
+    }
+
     .countdown-container{
-        grid-template-columns: 1fr !important;
+        grid-template-columns: 1fr !important;  
     }
 }
 

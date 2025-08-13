@@ -1,9 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import './Music.css';
 import { FaPlay, FaPause } from "react-icons/fa";
-import SoLove from "../../Audio/Só Love.mp3"
-import WhenIWasYourMan from "../../Audio/Bruno Mars - When I Was Your Man.mp3"
-import LiloAndStitch from "../../Audio/He Mele No Lilo - Lilo and Stitch.mp3"
 
 function Music() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -14,22 +11,22 @@ function Music() {
 
   const tracks = [
     {
-      title: 'When I Was Your Man',
-      artist: 'Bruno Mars',
-      image: 'https://i.discogs.com/jDpbMd9qQ9GXOn4iGyUggGu8f_aoix4QwuJAN0TMv_o/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUxNDU4/NzctMTM4NTkwOTAw/OC01NjA1LmpwZWc.jpeg',
-      src: WhenIWasYourMan // coloque o link do áudio real
+      title: 'Nome da Música',
+      artist: 'Artista da Música',
+      image: '#',
+      src: {}
     },
     {
-      title: "Só love",
-      artist: 'Claudinho & Buchecha',
-      image: 'https://upload.wikimedia.org/wikipedia/pt/c/c7/S%C3%B3_Love.jpg',
-      src: SoLove
+      title: 'Nome da Música',
+      artist: 'Artista da Música',
+      image: '#',
+      src: {}
     },
     {
-      title: 'He milo no lilo',
-      artist: 'Lilo & Stitch',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoeEGLBz74OP9NSk8muvl3M6i9A9x1FuXPAw&s',
-      src: LiloAndStitch
+      title: 'Nome da Música',
+      artist: 'Artista da Música',
+      image: '#',
+      src: {}
     }
   ];
 

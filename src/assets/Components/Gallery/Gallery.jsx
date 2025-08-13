@@ -2,16 +2,8 @@ import React, { useState, useEffect } from "react";
 import './Gallery.css';
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 
-import Nik1 from "../../images/Nik2.jpg"
-import Nik2 from "../../images/Nik1.jpg"
-import Nik3 from "../../images/Nik3.jpg"
-
 function Gallery() {
-  const slides = [
-    Nik1,
-    Nik2,
-    Nik3,
-  ];
+  const slides = [];
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
