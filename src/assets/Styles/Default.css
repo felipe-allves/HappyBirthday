@@ -42,17 +42,30 @@ section:nth-child(5) { animation-delay: 0.8s; }
     }
 }
 
+@media (max-width: 430px) {
+    main.container section.hero-section .age-display {
+        flex-direction: column;
+    }
+
+    main.container section.hero-section .age-display span.age-number, span.age-label {
+    font-size: clamp(2rem, 13vh, 6rem);
+    margin: 0 auto;
+    }
+
+    .countdown-container{
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .countdown-container{
+        grid-template-columns: 1fr !important;
+    }
+}
+
+
 @media (max-width: 768px) {
     .countdown-container {
         grid-template-columns: repeat(2, 1fr);
     }
-    
-    .message-input-container {
-        flex-direction: column;
-    }
-    
-    .send-btn {
-        align-self: flex-end;
-    }
 }
-
