@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 
-import './assets/Styles/default.css'
+import './assets/Styles/Default.css'
 
 import App from './App.jsx'
 import Nik from './Routers/Nik/Nik.jsx'
