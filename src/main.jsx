@@ -14,11 +14,11 @@ const Router = createBrowserRouter([
     element : <App />
   },
   {
-    path: "/nk",
+    path: "/nik",
     element: <Nik />
   },
   {
-    path: "/ld",
+    path: "/linda",
     element: <Linda />
   }
 ])
