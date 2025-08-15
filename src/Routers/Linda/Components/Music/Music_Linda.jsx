@@ -13,20 +13,20 @@ function Music() {
     {
       title: 'Nome da Musica',
       artist: 'Artista da Musica',
-      image: '#',
-      src: {}
+      image: '',
+      src: null
     },
     {
       title: 'Nome da Musica',
       artist: 'Artista da Musica',
-      image: '#',
-      src: {}
+      image: '',
+      src: null
     },
     {
       title: 'Nome da Musica',
       artist: 'Artista da Musica',
-      image: '#',
-      src: {}
+      image: '',
+      src: null
     }
   ];
 
